@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    int r1=(a*b)/100;
+    printf("%d\n",r1);
+    int r=a-r1;
+    int r2=(r*c)/100;
+    printf("%d\n",r2);
+    int r3=(r-r2)/3;
+     printf("%d",r3);
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
